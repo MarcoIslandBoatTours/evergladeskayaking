@@ -1,0 +1,13 @@
+# Force extensionless canonical URLs (added by fix_canonicals_and_urls.py)
+
+/about-us.htm /about-us 301
+/boat-assisted-kayak-tours.htm /boat-assisted-kayak-tours 301
+/directions.htm /directions 301
+/everglades-alligators-orchids.htm /everglades-alligators-orchids 301
+/faq.htm /faq 301
+/mangrove-tunnel-kayak-tours.htm /mangrove-tunnel-kayak-tours 301
+/mccumber.htm /mccumber 301
+/sea-kayak.htm /sea-kayak 301
+/contact.html /contact 301
+/photos.html /photos 301
+/privacy.html /privacy 301
