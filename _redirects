@@ -1,4 +1,26 @@
-# Force extensionless canonical URLs (added by fix_canonicals_and_urls.py)
+# =============================================================================
+# OLD LIVE SITE -> NEW SITE  (added 2026-05-25 to preserve organic traffic)
+# Order matters: specific rules MUST come before any wildcards.
+# =============================================================================
+
+# Old pages with no 1:1 equivalent on the new build
+/home.htm                         /                                301!
+/home.html                        /                                301!
+/index.html                       /                                301!
+/wright.htm                       /about-us                        301!
+/turner-river.htm                 /mangrove-tunnel-kayak-tours     301!
+/contact-us.htm                   /contact                         301!
+/photos.htm                       /photos                          301!
+/privacy.htm                      /privacy                         301!
+
+# Old PDF that ranks for "kayak camping checklist pdf" (KD 0, vol 20)
+# 301 to /sea-kayak. To fully preserve, re-add SeaKayakingCampingQuestionnaire.pdf to the repo root.
+/SeaKayakingCampingQuestionnaire.pdf  /sea-kayak                   301!
+
+# =============================================================================
+# INTERNAL CANONICAL ENFORCEMENT
+# Force extensionless URLs (added by fix_canonicals_and_urls.py)
+# =============================================================================
 
 /about-us.htm /about-us 301!
 /boat-assisted-kayak-tours.htm /boat-assisted-kayak-tours 301!

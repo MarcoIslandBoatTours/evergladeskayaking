@@ -34,8 +34,144 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
+<!-- ============================================================
+     JSON-LD STRUCTURED DATA (upgraded 2026-05-25)
+     Validate at: https://search.google.com/test/rich-results
+     ============================================================ -->
+
+<!-- LocalBusiness + TourOperator (primary entity) -->
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"TourOperator","name":"Everglades Kayaking","alternateName":"Everglades Area Tours — Kayaking","description":"The oldest and most experienced kayak tour outfitter in the Everglades. Florida Master Naturalist guided kayak eco-tours in Everglades National Park and the 10,000 Islands since the 1990s.","url":"https://www.evergladeskayaking.com","telephone":"+12396953633","email":"EvergladesKayaking@gmail.com","address":{"@type":"PostalAddress","streetAddress":"32016 Tamiami Trail East","addressLocality":"Naples","addressRegion":"FL","postalCode":"34114","addressCountry":"US"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"350","bestRating":"5"},"sameAs":["https://www.evergladesareatours.com"]}
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "TourOperator"],
+  "@id": "https://www.evergladeskayaking.com/#business",
+  "name": "Everglades Kayaking",
+  "alternateName": "Everglades Area Tours — Kayaking",
+  "url": "https://www.evergladeskayaking.com/",
+  "logo": "https://www.evergladeskayaking.com/logo_img-small.png",
+  "image": [
+    "https://www.evergladeskayaking.com/images/hero-bg.jpg",
+    "https://www.evergladeskayaking.com/images/mangrove-tunnels.jpg",
+    "https://www.evergladeskayaking.com/images/alligators.jpg"
+  ],
+  "description": "The oldest and most experienced kayak tour outfitter in the Everglades. Florida Master Naturalist guided kayak eco-tours in Everglades National Park and the 10,000 Islands since the 1990s.",
+  "telephone": "+1-239-695-3633",
+  "email": "EvergladesKayaking@gmail.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "32016 Tamiami Trail East",
+    "addressLocality": "Naples",
+    "addressRegion": "FL",
+    "postalCode": "34114",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.9077,
+    "longitude": -81.4023
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Everglades National Park" },
+    { "@type": "Place", "name": "10,000 Islands National Wildlife Refuge" },
+    { "@type": "Place", "name": "Big Cypress National Preserve" }
+  ],
+  "sameAs": [
+    "https://www.evergladesareatours.com/",
+    "https://www.everglades-boattours.com/",
+    "https://www.marcoisland-boattours.com/",
+    "https://www.facebook.com/evergladesareatours",
+    "https://twitter.com/evergladeskayak"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Florida Master Naturalist Program",
+      "credentialCategory": "certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Florida Society for Ethical Ecotourism - Silver Certified",
+      "credentialCategory": "certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "U.S. Coast Guard Licensed Captain",
+      "credentialCategory": "license"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "350"
+  }
+}
+</script>
+
+<!-- WebSite entity (sitelinks search box eligibility) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.evergladeskayaking.com/#website",
+  "url": "https://www.evergladeskayaking.com/",
+  "name": "Everglades Kayaking",
+  "description": "Guided kayak eco-tours in Everglades National Park since the 1990s",
+  "publisher": { "@id": "https://www.evergladeskayaking.com/#business" },
+  "inLanguage": "en-US"
+}
+</script>
+
+<!-- ItemList of featured tours (powers tour carousel rich results) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Everglades Kayak Eco-Tours",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "TouristTrip",
+        "name": "Mangrove Tunnel Kayak Eco Tour",
+        "description": "Paddle through the largest mangrove forest in the northern hemisphere. Dense green canopies, orchids, bromeliads, river otters, turtles, and wading birds.",
+        "url": "https://www.evergladeskayaking.com/mangrove-tunnel-kayak-tours",
+        "image": "https://www.evergladeskayaking.com/images/mangrove-tour.jpg",
+        "touristType": ["Families", "Photographers", "Nature lovers"],
+        "provider": { "@id": "https://www.evergladeskayaking.com/#business" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "TouristTrip",
+        "name": "Boat Assisted Kayak Eco Tour",
+        "description": "Power boat to remote barrier islands, then kayak the pristine backcountry. Dolphins, wildlife, shelling, and mangrove exploration all in one extraordinary day.",
+        "url": "https://www.evergladeskayaking.com/boat-assisted-kayak-tours",
+        "image": "https://www.evergladeskayaking.com/images/boat-assisted.jpg",
+        "touristType": ["Active travelers", "Families"],
+        "provider": { "@id": "https://www.evergladeskayaking.com/#business" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "TouristTrip",
+        "name": "Alligators & Orchids Kayak Tour",
+        "description": "Morning calm waters, alligator sightings, mirror-like reflections, and an immersive paddle through orchid-draped mangrove forest. Perfect for photographers.",
+        "url": "https://www.evergladeskayaking.com/everglades-alligators-orchids",
+        "image": "https://www.evergladeskayaking.com/images/alligator-tour.jpg",
+        "touristType": ["Photographers", "Wildlife enthusiasts"],
+        "provider": { "@id": "https://www.evergladeskayaking.com/#business" }
+      }
+    }
+  ]
+}
 </script>
 </head>
 <body>
