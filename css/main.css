@@ -75,6 +75,8 @@ button { font-family: var(--font-body); cursor: pointer; border: none; }
 .topbar-right { display: flex; gap: 16px; align-items: center; }
 
 .site-nav { background: var(--bg-tint); box-shadow: 0 2px 12px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 1000; }
+.nav-logo-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.nav-logo-img { height: 48px; width: auto; display: block; flex-shrink: 0; }
 .site-nav .container { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .nav-logo-text { font-family: var(--font-head); font-size: 18px; font-weight: 800; color: var(--primary-dk); line-height: 1.1; }
 .nav-logo-text small { display: block; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; color: var(--mid-gray); text-transform: uppercase; font-family: var(--font-body); }
