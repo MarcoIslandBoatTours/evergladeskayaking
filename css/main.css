@@ -15,7 +15,7 @@
   --teal:       #1B7A6B;   /* water teal */
   --white:      #FFFFFF;
   --bg-tint:    #D4E6CC;   /* light muted green background (replaces white on sections/cards) */
-  --offwhite:   #F7F9F5;   /* slightly green-tinted offwhite */
+  --offwhite:   #E1ECDB;   /* slightly green-tinted offwhite */
   --light-gray: #E4EAE4;
   --mid-gray:   #6C757D;
   --dark-gray:  #343A40;
@@ -370,4 +370,4 @@ button { font-family: var(--font-body); cursor: pointer; border: none; }
   .bring-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .photo-grid { grid-template-columns: repeat(2,1fr); }
-  .guide-grid { grid-template-columns:
+  .guide-grid { grid-template-columns:      
